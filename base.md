@@ -248,3 +248,81 @@ public static int search(int[] arr, int val) {
 }
 ```
 
+
+
+## 基本类型包装类
+
+字符串转整型
+
+```java
+Integer.parseInt("123");
+```
+
+整型转字符串
+
+```java
+String a = 123 + "";
+Integer.toString(123);
+```
+
+### 自动装箱，自动拆箱
+
+1.5之后的新特性
+
+自动装箱
+
+```java
+Integer a = 1; // 基本类型1自动变成对象赋值，即为自动装箱
+```
+
+自动拆箱
+
+```java
+Integer a = 1;
+int b = a + 1; // 对象a自动转换为基本类型int进行计算，即为自动拆箱
+```
+
+### 易错点
+
+```java
+Integer a = 127;
+Integer b = 127;
+a == b; // true
+```
+
+```java
+Integer a = 128;
+Integer b = 128;
+a == b; // false
+```
+
+>   解析：jvm在byte范围内不会重新new对象
+
+
+
+## `大数据计算`
+
+大于`long`的数值，包装为`BigInteger`对象：
+
+```java
+BigInteger bi = new BigInteger("9912393912939219399312939129391293919");
+```
+
+超过double精度的浮点数，或者为了提高精确计算，包装为`BigDecimal`对象：
+
+```java
+BigDecimal ba = new BigDecimal("0.01");
+BigDecimal bb = new BigDecimal("0.09");
+ba.add(bb);
+```
+
+>   浮点计算尽量使用`BigDecimal`对象，而不直接使用符号计算，避免精度损失。
+
+`BigDecimal` 进行除法计算是，需要传入保留模式，避免除不尽报错。例：
+
+```java
+BigDecimal ba = new BigDecimal("0.3");
+BigDecimal bb = new BigDecimal("0.09");
+ba.divide(bb, 2, RoundingMode.HALF_UP);
+```
+
