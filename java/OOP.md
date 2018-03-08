@@ -323,10 +323,32 @@ public class S extends P {
 ## 访问修饰符
 
 |                | public | protected | default | private |
-| :------------: | :----: | :-------: | :-----: | :-----: |
+|:------------:| :----: | :-------: | :-----: | :-----: |
 |     当前类     |   √    |     √     |    √    |    √    |
 |     当前包     |   √    |     √     |    √    |         |
 |  不同包的子类  |   √    |     √     |         |         |
 | 其他包的其他类 |   √    |           |         |         |
 
 >   注意：default为不写修饰符。
+
+## 可变参方法
+用于方法参数数量不确定，参数必须是同一类型，且传入的多个变量在方法里面识别为数组。例：
+```java
+private static void testFun(int... b) {
+    for (int i : b) {
+        System.out.println(i);
+    }
+}
+
+// 调用
+testFun(1, 2, 3, 4, 5);
+```
+
+还可以和其他参数一起，但是可变参数必须在最后，且只能有一个。例：
+```java
+private static void testFun(String a, System b, int... b) {
+    for (int i : b) {
+        System.out.println(i);
+    }
+}
+```
