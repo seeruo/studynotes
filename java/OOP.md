@@ -352,3 +352,31 @@ private static void testFun(String a, System b, int... b) {
     }
 }
 ```
+
+
+## 反射
+
+获取Class对象：
+
+```java
+// 方法一：
+Class cls = new User("tb", 12, "男").getClass();
+// 方法二：
+Class cls = User.class;
+// 方法三
+Class cls = Class.forName("study.fanshe.User");
+```
+
+> **注意**：方法二虽然简单，但不会把类加载到内存里，导致静态代码块不能执行，所以根据情况使用，常用第三种方法。
+
+反射的方式执行构造方法实例化对象：
+
+```java
+Class<User> cls = User.class;
+Constructor<User> ct = cls.getConstructor(String.class, int.class, String.class);
+User user = ct.newInstance("tb", 12, "男");
+```
+
+泛型擦除：
+
+通过反射，可以绕开编译之前的泛型约束。
