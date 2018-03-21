@@ -1,26 +1,27 @@
-# Summary
+# Study Notes
 
-- [Introduction](readme.md)
-  - php
-    - [CSV格式数据处理](php/csv.md)
-    - [PHPUnit](php/PHPUnit.md)
-    - [Xdebug](php/Xdebug.md)
-  - java
-    - [基础](java/base.md)
-    - [常用API](java/API.md)
-    - [面向对象](java/OOP.md)
-    - [集合框架](java/map.md)
-    - [多线程](java/thread.md)
-    - [正则](java/regex.md)
-    - [IO](java/IO.md)
-    - [MySql](java/MySQL.md)
-    - [网络编程](java/socket.md)
-  - 操作系统
-    - [【Linux】文件与目录权限](os/linux_file.md)
-    - [【Linux】LAMP环境编译安装](os/lamp.md)
-    - [【Liunx】使用public-key登录ssh](os/ssh.md)
-    - [vim](os/vim.md)
-    - [git](os/git.md)
-    - [git服务器搭建](os/git_server.md)
-  - 其他
-    - [Elasticsearch](other/Elasticsearch.md)
+> 学习笔记
+
+- [**PHP**](php/readme.md)
+  - [CSV格式数据处理](php/csv.md)
+  - [PHPUnit](php/phpunit.md)
+  - [Xdebug](php/xdebug.md)
+- [**Java**](java/readme.md)
+  - [基础](java/base.md)
+  - [常用API](java/api.md)
+  - [面向对象](java/oop.md)
+  - [集合框架](java/map.md)
+  - [多线程](java/thread.md)
+  - [正则](java/regex.md)
+  - [IO](java/io.md)
+  - [MySql](java/mysql.md)
+  - [网络编程](java/socket.md)
+- [**操作系统**](os/readme.md)
+  - [[Linux] 文件与目录权限](os/file.md)
+  - [[Linux] LAMP环境编译安装](os/lamp.md)
+  - [[Liunx] 使用public-key登录ssh](os/ssh.md)
+  - [vim](os/vim.md)
+  - [git](os/git.md)
+  - [git服务器搭建](os/gitserver.md)
+- [**其他**](other/read.md)
+  - [Elasticsearch](other/es.md)

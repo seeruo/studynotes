@@ -4,7 +4,7 @@
 
 ## 关系图
 
-![Collection](img/Collection.png)
+![Collection](../img/Collection.png)
 
 `list`接口特点：有序，有索引，可以重复元素。
 

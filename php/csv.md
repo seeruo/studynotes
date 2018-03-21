@@ -148,7 +148,7 @@ fclose($fp);
 
 ### 导出性能分析
 
-![f99cc1a4-ad47-4bfb-8765-53276e299be4](img/f99cc1a4-ad47-4bfb-8765-53276e299be4.jpeg)
+![性能分析图](../img/f99cc1a4-ad47-4bfb-8765-53276e299be4.jpeg)
 
 > **服务器环境**:windows10+IIS10+mysql5.6
 >

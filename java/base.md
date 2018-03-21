@@ -4,7 +4,7 @@
 
 ## 内存图
 
-![mem](./img/mem.png)
+![mem](../img/mem.png)
 
 
 
@@ -14,7 +14,7 @@
 
 ## 数据类型
 
-![mem](./img/type.png)
+![mem](../img/type.png)
 
 ### boolean类型注意
 
@@ -42,7 +42,7 @@ if (a > 0) {
 
 long类型必须加L后缀，不然错误。
 
-![mem](./img/int_type.png)
+![mem](../img/int_type.png)
 
 
 
@@ -50,7 +50,7 @@ long类型必须加L后缀，不然错误。
 
 float类型必须加f后缀，不然出错。
 
-![mem](./img/float.png)
+![mem](../img/float.png)
 
 
 
