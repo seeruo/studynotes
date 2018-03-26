@@ -17,6 +17,8 @@
   - [IO](/java/io.md)
   - [MySql](/java/mysql.md)
   - [网络编程](/java/socket.md)
+- [**设计模式**](/design/readme.md)
+  - [单例模式](/design/instance.md)
 - [**操作系统**](/os/readme.md)
   - [[Linux] 文件与目录权限](/os/file.md)
   - [[Linux] LAMP环境编译安装](/os/lamp.md)
@@ -29,5 +31,8 @@
   - [前后端分离](/article/fbseparation.md)
   - [开发自己的PHP框架](/article/framework.md)
   - [一致性哈希算法研究](/article/onehash.md)
+  - 高并发库存设计(计划中...)
 - [**其他**](/other/readme.md)
   - [Elasticsearch](/other/es.md)
+- [纠错记录](/fixed.md)
+
