@@ -125,3 +125,24 @@ class UserTest extends TestCase
 ```
 
 > 注意：一个类有多个测试方法时，避免每次初始化需要测试的对象，所以就会用到setUp来进行公共的初始化。但是在测试类里面禁止重写构造方法，这会导致测试结果出错！
+
+
+
+## 测试异常
+
+如果判断测试案例会抛出异常，则使用异常测试：
+
+```php
+class ObjTest extends TestCase
+{
+    public function testObj()
+    {
+        // 此处是在断言后面的代码会抛出异常，且异常为ClassNotFoundException
+        $this->expectException(ClassNotFoundException::class);
+        new Abc();
+    }
+}
+```
+
+> 注意：异常断言需要在代码之前。
+

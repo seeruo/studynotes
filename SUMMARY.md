@@ -18,6 +18,8 @@
   - [MySql](/java/mysql.md)
   - [网络编程](/java/socket.md)
 - [**设计模式**](/design/readme.md)
+  - [简单工厂模式](/design/simple_factory.md)
+  - [工厂方法模式](/design/factory_method.md)
   - [单例模式](/design/instance.md)
 - [**操作系统**](/os/readme.md)
   - [[Linux] 文件与目录权限](/os/file.md)
