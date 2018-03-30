@@ -4,6 +4,9 @@
   "description": "个人的学习笔记以及心得文章分享",
   "language": "zh-hans",
   "gitbook": "3.x.x",
+  "structure": {
+    "summary": "readme.md"
+  },
   "plugins": [
     "edit-link",
     "prism",
