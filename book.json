@@ -1,0 +1,44 @@
+{
+  "title": "Study Notes",
+  "author": "tangbo<admin@tbphp.net>",
+  "description": "个人的学习笔记以及心得文章分享",
+  "language": "zh-hans",
+  "gitbook": "3.x.x",
+  "plugins": [
+    "edit-link",
+    "prism",
+    "prism-themes",
+    "-highlight",
+    "github",
+    "expandable-chapters-small",
+    "favicon",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/tbphp/studynotes/tree/master",
+      "label": "编辑此页面"
+    },
+    "github": {
+      "url": "https://github.com/tbphp/studynotes"
+    },
+    "favicon": {
+      "shortcut": "img/favicon.ico",
+      "bookmark": "img/favicon.ico",
+      "appleTouch": "img/favicon.ico",
+      "appleTouchMore": {
+        "120x120": "img/favicon.ico",
+        "180x180": "img/favicon.ico"
+      }
+    },
+    "prism": {
+      "css": ["prism-themes/themes/prism-xonokai.css"]
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    }
+  }
+}
