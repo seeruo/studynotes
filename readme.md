@@ -39,5 +39,7 @@
   - 高并发库存设计(计划中...)
 - [**其他**](/other/readme.md)
   - [Elasticsearch](/other/es.md)
+  - [MySQL的事务与锁](/other/mysql-)
+  - [Docker使用教程](/other/docker.md)
 - [纠错记录](/fixed.md)
 
