@@ -41,6 +41,8 @@ docker container ls
 docker container ls --all
 # 删除容器
 docker container rm [container]
+# 进入容器
+docker attach [container]
 ```
 
 **compose:**

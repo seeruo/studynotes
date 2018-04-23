@@ -41,5 +41,6 @@
   - [Elasticsearch](/other/es.md)
   - [MySQL的事务与锁](/other/mysql-)
   - [Docker使用教程](/other/docker.md)
+  - [解决Docker for Mac不能直接访问ip的问题](/other/docker_for_mac.md)
 - [纠错记录](/fixed.md)
 
