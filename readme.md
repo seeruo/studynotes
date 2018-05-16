@@ -10,6 +10,7 @@
   - [协程二：迭代生成器](/php/generator.md)
   - [协程三：协程的实现原理](/php/coroutine.md)
   - Laravel (计划中...)
+  - [[Symfony]安装与配置](/php/symfony_01.md)
 - [**Java**](/java/readme.md)
   - [基础](/java/base.md)
   - [常用API](/java/api.md)
