@@ -1,15 +1,18 @@
-# IO操作
+# IO
 
 ## `File`
+
 操作文件，兼容任何系统。
 
 ### 静态变量
+
 ```java
 File.File.pathSeparator; // 路径分隔符  ':'
 File.separator; // 目录名称分隔符  '/'
 ```
 
 ### 过滤文件
+
 ```java
 // 显示java后缀的文件
 File[] fs = new File("/www/java").listFiles(name -> name.getName().endsWith(".java"));
@@ -19,8 +22,6 @@ if (fs != null) {
     }
 }
 ```
-
-
 
 ## `OutputStream`
 
@@ -36,11 +37,9 @@ try {
 }
 ```
 
-
-
 ## `InputStream`
 
- 字节输入流，读文件示例：
+字节输入流，读文件示例：
 
 ```java
 try {
@@ -51,8 +50,6 @@ try {
     e.printStackTrace();
 }
 ```
-
-
 
 ## `FileWriter`
 
@@ -68,8 +65,6 @@ try {
     e.printStackTrace();
 }
 ```
-
-
 
 ## `FileReader`
 
@@ -92,16 +87,12 @@ private static String readAllChars(String file, int step) {
 }
 ```
 
-
-
 ## 编码转换
 
 ```java
 new InputStreamReader(new FileInputStream("a.txt"), "gbk"); // 读
 new OutputStreamWriter(new FileOutputStream("a.txt"), "gbk"); // 写
 ```
-
-
 
 ## 缓冲流
 
@@ -111,8 +102,6 @@ new BufferedInputStream(new FileInputStream("a.txt")); // 字节流，读
 new BufferedWriter(new FileWriter("a.txt")); // 字符流，写
 new BufferedReader(new FileReader("a.txt")); // 字符流，读
 ```
-
-
 
 ## `Properties`
 
@@ -129,8 +118,6 @@ FileWriter fw = new FileWriter("a.properties");
 pp.store(fw, "update info");
 fw.close();
 ```
-
-
 
 ## 对象序列化
 
@@ -154,8 +141,6 @@ ois.close();
 
 阻止成员变量序列化
 
-
-
 ## 打印流
 
 > `PrintStream` `PrintWriter`
@@ -174,7 +159,7 @@ pw.close();
 
 **条件**
 
-1. 输出对象必须是流对象。(`OutputStream`,`Writer`)。
+1. 输出对象必须是流对象。\(`OutputStream`,`Writer`\)。
 2. 必须调用`println`,`printf`,`format`方法。
 
 ```java

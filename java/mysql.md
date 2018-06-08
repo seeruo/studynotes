@@ -1,6 +1,4 @@
-# MySQL
-
-
+# MySql
 
 ## 初始化
 
@@ -18,8 +16,6 @@ con.close();
 ```
 
 > **注意**：数据库连接，如果不是ssl连接，后面需要加上'useSSL=false'标识。
-
-
 
 ## 语句
 
@@ -47,8 +43,6 @@ while (res.next()) {
 }
 ```
 
-
-
 ## DbUtils工具
 
 ### `QueryRunner`
@@ -63,11 +57,8 @@ for (Map<String, Object> o : q) {
 
 支持类型：
 
-- `ArrayHandler`
-- `ArrayListHandler`,`BeanHandler`,`BeanListHandler`,`ColumnListHandler`,`ScalarHandler`,`MapHandler`,`MapListHandler`,`KeyedHandler`
-
-
-
+* `ArrayHandler`
+* `ArrayListHandler`,`BeanHandler`,`BeanListHandler`,`ColumnListHandler`,`ScalarHandler`,`MapHandler`,`MapListHandler`,`KeyedHandler`
 
 ## DBCP连接池
 
