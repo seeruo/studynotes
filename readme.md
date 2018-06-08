@@ -10,6 +10,8 @@
   * [协程三：协程的实现原理](php/xie-cheng-san-xie-cheng-de-shi-xian-yuan-li.md)
   * [\[Symfony\]安装与配置](php/symfony-an-zhuang-yu-pei-zhi.md)
   * [\[migrations\]简单使用说明](php/doctrinemigrations-jian-dan-shi-yong.md)
+  * [\[migrations\]数据迁移组件一：安装与使用](php/migrations-shen-du-jie-xi-shu-ju-qian-yi-zu-jian-yi-an-zhuang.md)
+  * [\[migrations\]数据迁移组件二：自定义集成项目](php/migrations-shu-ju-qian-yi-zu-jian-er-zi-ding-yi-ji-cheng-xiang-mu.md)
 * [Java](java/README.md)
   * [基础](java/ji-chu.md)
   * [常用API](java/chang-yong-api.md)

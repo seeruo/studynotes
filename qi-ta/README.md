@@ -1,4 +1,4 @@
 # 其他
 
-* [Elasticsearch](elasticsearch.md)
+努力写点原创的东西
 
