@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Study Notes](README.md)
 * [PHP](php/README.md)
   * [CSV格式数据处理](php/csv-ge-shi-shu-ju-chu-li.md)
   * [PHPUnit](php/phpunit.md)

@@ -2,7 +2,7 @@
 description: 记录个人学习笔记、技术文章。
 ---
 
-# Introduction
+# Study Notes
 
 > 学习笔记
 
