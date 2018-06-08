@@ -9,7 +9,7 @@
   * [协程二：迭代生成器](php/xie-cheng-er-die-dai-sheng-cheng-qi.md)
   * [协程三：协程的实现原理](php/xie-cheng-san-xie-cheng-de-shi-xian-yuan-li.md)
   * [\[Symfony\]安装与配置](php/symfony-an-zhuang-yu-pei-zhi.md)
-* [\[doctrine-migrations\]简单使用](doctrinemigrations-jian-dan-shi-yong.md)
+  * [\[doctrine-migrations\]简单使用](php/doctrinemigrations-jian-dan-shi-yong.md)
 * [Java](java/README.md)
   * [基础](java/ji-chu.md)
   * [常用API](java/chang-yong-api.md)
