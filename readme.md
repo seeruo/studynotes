@@ -12,6 +12,7 @@
   * [Doctrine Migrations组件的简单使用](php/doctrinemigrations-jian-dan-shi-yong.md)
   * [数据迁移组件一：安装与使用](php/migrations-shen-du-jie-xi-shu-ju-qian-yi-zu-jian-yi-an-zhuang.md)
   * [数据迁移组件二：自定义集成](php/migrations-shu-ju-qian-yi-zu-jian-er-zi-ding-yi-ji-cheng-xiang-mu.md)
+  * [数据迁移组件三：自定义数据字段类型](php/shu-ju-qian-yi-zu-jian-san-zi-ding-yi-shu-ju-zi-duan-lei-xing.md)
 * [Java](java/README.md)
   * [基础](java/ji-chu.md)
   * [常用API](java/chang-yong-api.md)
