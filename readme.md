@@ -13,6 +13,7 @@
   * [数据迁移组件一：安装与使用](php/migrations-shen-du-jie-xi-shu-ju-qian-yi-zu-jian-yi-an-zhuang.md)
   * [数据迁移组件二：自定义集成](php/migrations-shu-ju-qian-yi-zu-jian-er-zi-ding-yi-ji-cheng-xiang-mu.md)
   * [数据迁移组件三：自定义数据字段类型](php/shu-ju-qian-yi-zu-jian-san-zi-ding-yi-shu-ju-zi-duan-lei-xing.md)
+  * [数据迁移组件四：集成diff方式迁移组件](php/shu-ju-qian-yi-zu-jian-si-ji-cheng-diff-fang-shi-qian-yi-zu-jian.md)
 * [Java](java/README.md)
   * [基础](java/ji-chu.md)
   * [常用API](java/chang-yong-api.md)
